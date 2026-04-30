@@ -764,12 +764,16 @@ const LANGS = {
     voiceGender: 'female',
     tip: 'Thai is tonal — the same syllable can have 5 different meanings depending on tone.',
     cultural: [
-      'Always remove shoes before entering homes and temples',
+    'Always remove shoes before entering homes and temples',
       'The "Wai" greeting (palms together, slight bow) shows respect',
       'Never touch someone\'s head — it\'s considered sacred',
       'Point with your whole hand, not a single finger',
       'Dress modestly when visiting temples (cover shoulders & knees)',
-      'Royal family references must always be respectful — this is law'
+      'Royal family references must always be respectful — this is law',
+      'Use "Krap" (male) or "Ka" (female) for politeness at the end of sentences',
+      'Thai food is shared; take small portions from central dishes',
+      'Avoid using your left hand to pass money or food',
+      'Never point your feet at people or religious items'
     ],
     categories: {
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
@@ -1020,12 +1024,16 @@ const LANGS = {
     voiceGender: 'female',
     tip: 'French is spoken on 5 continents. Mastering it opens doors from Paris to Martinique to Senegal.',
     cultural: [
-      'Greet with "Bonjour" before anything — skipping it is considered rude',
+     'Greet with "Bonjour" before anything — skipping it is considered rude',
       'Cheek kisses (la bise) are a common greeting between friends',
       'Punctuality is appreciated in professional settings',
-      'Bread is sacred — never waste it or place it upside down on a table',
-      'It\'s polite to say "Bonjour" and "Au revoir" when entering/leaving shops',
-      'Sunday is family day — many businesses close'
+      'Bread is sacred — never waste it or place it upside down',
+      'Say "Bonjour" and "Au revoir" when entering or leaving shops',
+      'Sunday is family day — many businesses close',
+      'Bread is often placed directly on the tablecloth, not a side plate',
+      'Keep your voice low in public spaces and restaurants',
+      'Service is included; "Service Compris" means no tip is required',
+      'Maintain eye contact when clinking glasses for a toast'
     ],
     categories: {
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
@@ -1205,12 +1213,16 @@ const LANGS = {
     voiceGender: 'female',
     tip: 'Spanish is the official language of 20 countries. Learning it unlocks Latin America, Spain, and more.',
     cultural: [
-      'Greet with a handshake or a single cheek kiss depending on the country',
+     'Greet with a handshake or a single cheek kiss depending on the country',
       'Meal times run late — lunch at 2–3pm, dinner at 9–10pm in Spain',
       '"Siesta" culture means some businesses close in the afternoon',
       'Personal space is smaller — standing close is normal',
-      'Family is central to social life — expect to be invited to family events',
-      'Saying "provecho" (enjoy your meal) to strangers eating is polite'
+      'Family is central to social life; expect invitations to family events',
+      'Saying "provecho" (enjoy your meal) to strangers eating is polite',
+      'Stay for "Sobremesa" — talking at the table long after a meal',
+      'It is common and polite to warmly greet or pat children on the head',
+      'Tipping is minimal; locals usually just leave small change',
+      'Use only the first of a person\'s two surnames in formal settings'
     ],
     categories: {
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
@@ -1370,8 +1382,19 @@ const LANGS = {
   nl: {
     name:'Dutch',flag:'🇳🇱',native:'Nederlands',voiceCode:'nl-NL',
     voiceGender:'female',
-    tip:'Dutch is closely related to English and German — many words will look familiar!',
-    cultural:['Direct communication is valued — Dutch people say what they mean','Going Dutch (splitting bills equally) is common and expected','Cycling is a way of life — respect bike lanes','Punctuality is very important for both social and business meetings','Stroopwafels on top of a hot mug to warm them is a sacred ritual','Knock before entering any room, even at home'],
+   tip:'Dutch is closely related to English and German — many words will look familiar!',
+    cultural: [
+      'Direct communication is valued — Dutch people say what they mean',
+      'Going Dutch (splitting bills equally) is common and expected',
+      'Cycling is a way of life — respect bike lanes',
+      'Punctuality is very important for all meetings',
+      'Stroopwafels on top of a hot mug to warm them is a ritual',
+      'Knock before entering any room, even at home',
+      'Congratulate everyone in the room at a birthday party',
+      'It is polite to look away from open windows rather than staring in',
+      '"Gezelligheid" (social warmth) is the heart of the culture',
+      'Friends and family greet with three alternating cheek kisses'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'Goedemorgen',rom:''},{en:'Good afternoon',tr:'Goedemiddag',rom:''},{en:'Good evening',tr:'Goedenavond',rom:''},
@@ -1424,8 +1447,19 @@ const LANGS = {
   ko: {
     name:'Korean',flag:'🇰🇷',native:'한국어',voiceCode:'ko-KR',
     voiceGender:'female',
-    tip:'Korean uses Hangul, a phonetic alphabet invented in 1443. It can be learned in a few days!',
-    cultural:['Bow slightly when greeting — deeper bow shows more respect','Remove shoes when entering homes','Elders eat and drink first — wait for the senior person','Use two hands when giving or receiving items','Pouring drinks for others (not yourself) is the norm','Age matters — it\'s common to ask someone\'s age early in conversation'],
+   tip:'Korean uses Hangul, a phonetic alphabet invented in 1443. It can be learned in a few days!',
+    cultural: [
+      'Bow slightly when greeting — deeper bow shows more respect',
+      'Remove shoes when entering homes',
+      'Elders eat and drink first — wait for the senior person',
+      'Use two hands when giving or receiving items',
+      'Pouring drinks for others (not yourself) is the norm',
+      'Age matters — expect to be asked your age early in conversation',
+      'Hold your glass with two hands when an elder pours for you',
+      'Receive business cards with two hands and study them briefly',
+      'Never write a living person\'s name in red ink',
+      'Tipping is not expected and can cause confusion'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'안녕하세요',rom:'Annyeonghaseyo'},{en:'Good evening',tr:'안녕하세요',rom:'Annyeonghaseyo'},
@@ -1483,8 +1517,19 @@ const LANGS = {
   vi: {
     name:'Vietnamese',flag:'🇻🇳',native:'Tiếng Việt',voiceCode:'vi-VN',
     voiceGender:'female',
-    tip:'Vietnamese is tonal with 6 tones. The diacritics on letters actually show you which tone to use!',
-    cultural:['Greet elders with both hands and a slight bow','Avoid showing the soles of your feet — it\'s considered disrespectful','Red envelopes with money are given during Tết (New Year)','Bargaining at markets is expected and fun','Don\'t point your chopsticks at someone','Visiting someone? Bring fruit or tea as a gift'],
+    tip:'Vietnamese is tonal with 6 tones. The diacritics show which tone to use!',
+    cultural: [
+      'Greet elders with both hands and a slight bow',
+      'Avoid showing the soles of your feet — it\'s disrespectful',
+      'Red envelopes with money are given during Tết (New Year)',
+      'Bargaining at markets is expected and fun',
+      'Don\'t point your chopsticks at someone',
+      'Visiting someone? Bring fruit or tea as a gift',
+      'Never stick chopsticks vertically in a rice bowl',
+      'A smile can indicate confusion or embarrassment over happiness',
+      'Walk at a steady pace when crossing motorbike-heavy streets',
+      'Always use a title (Anh, Chi, Em) before names based on age'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'Chào buổi sáng',rom:'Chao buoi sang'},{en:'Good afternoon',tr:'Chào buổi chiều',rom:'Chao buoi chieu'},
@@ -1539,8 +1584,19 @@ const LANGS = {
   id: {
     name:'Indonesian',flag:'🇮🇩',native:'Bahasa Indonesia',voiceCode:'id-ID',
     voiceGender:'female',
-    tip:'Indonesian (Bahasa) has no tones, no verb conjugations, and largely phonetic spelling. One of the easiest Asian languages for English speakers!',
-    cultural:['Use your right hand for giving and receiving — the left is considered unclean','Dress modestly, especially outside of Bali tourist areas','Remove shoes before entering homes and mosques','Bargaining is normal and expected at markets','Indonesia is the world\'s largest Muslim-majority country — respect Ramadan fasting hours','Always greet with "Selamat" + time of day'],
+   tip:'Indonesian (Bahasa) has no tones or verb conjugations. Very beginner friendly!',
+    cultural: [
+      'Use your right hand for giving and receiving',
+      'Dress modestly, especially outside of Bali tourist areas',
+      'Remove shoes before entering homes and mosques',
+      'Bargaining is normal and expected at markets',
+      'Respect Ramadan fasting hours in this Muslim-majority country',
+      'Always greet with "Selamat" + time of day',
+      '"Jam Karet" (Rubber Time) means punctuality is often relaxed',
+      'Avoid heavy public displays of affection like kissing',
+      'The head is sacred; do not touch an adult\'s head',
+      'Friendly personal questions about marriage or travel are common'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'Selamat pagi',rom:''},{en:'Good afternoon',tr:'Selamat siang',rom:''},
@@ -1594,8 +1650,19 @@ const LANGS = {
   ja: {
     name:'Japanese',flag:'🇯🇵',native:'日本語',voiceCode:'ja-JP',
     voiceGender:'female',
-    tip:'Japanese has 3 writing systems: Hiragana, Katakana, and Kanji. The phonetic systems (Hiragana/Katakana) can be learned in 2 weeks.',
-    cultural:['Bow to greet — deeper bow = more respect','Never tip in restaurants, it can be considered rude','Remove shoes before entering homes','Queue patiently — cutting in line is a serious social offence','Speak quietly in public transport','Exchanging business cards (meishi) is a formal ritual — use both hands'],
+   tip:'Japanese has 3 writing systems. The phonetic systems can be learned in 2 weeks.',
+    cultural: [
+      'Bow to greet — deeper bow equals more respect',
+      'Never tip in restaurants; it can be considered rude',
+      'Remove shoes before entering homes',
+      'Queue patiently — cutting in line is a serious offence',
+      'Speak quietly in public transport',
+      'Exchange business cards (meishi) with both hands',
+      'Bring wrapped food gifts (Omiyage) when returning from trips',
+      'Stand on one side of the escalator to let others pass',
+      'It is considered impolite to eat or drink while walking',
+      'Keep phones on silent and avoid calls on public transport'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'おはようございます',rom:'Ohayou gozaimasu'},{en:'Good afternoon',tr:'こんにちは',rom:'Konnichiwa'},
@@ -1650,8 +1717,19 @@ const LANGS = {
   pt: {
     name:'Portuguese',flag:'🇧🇷',native:'Português',voiceCode:'pt-BR',
     voiceGender:'female',
-    tip:'Portuguese is spoken by 260 million people. Brazilian Portuguese and European Portuguese sound quite different — this guide focuses on Brazilian.',
-    cultural:['Brazilians are warm and physical — hugs and cheek kisses are common greetings','Personal space is smaller than in the US','Never refuse food offered at someone\'s home — it\'s impolite','Punctuality is flexible — arriving 15–30 mins late is common for social events','Carnaval is sacred — plan around it','Beach culture is central — swimwear is appropriate at most coastal areas'],
+   tip:'Brazilian Portuguese focuses on warmth and physical expression.',
+    cultural: [
+      'Brazilians are warm — hugs and cheek kisses are common',
+      'Personal space is smaller than in the US or Europe',
+      'Never refuse food offered at someone\'s home',
+      'Punctuality is flexible for social events (15–30 mins late is normal)',
+      'Carnaval is sacred — plan your schedule around it',
+      'Beach culture is central — swimwear is often appropriate locally',
+      'Use a napkin or utensils to eat "finger foods" like pizza',
+      'Avoid the "OK" hand gesture; it is very offensive in Brazil',
+      'Hygiene is a priority; locals often brush teeth at work after lunch',
+      'Light touching on the arm during conversation is a sign of warmth'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'Bom dia',rom:''},{en:'Good afternoon',tr:'Boa tarde',rom:''},
@@ -1705,8 +1783,19 @@ const LANGS = {
   zh: {
     name:'Mandarin',flag:'🇨🇳',native:'普通话',voiceCode:'zh-CN',
     voiceGender:'female',
-    tip:'Mandarin is tonal (4 tones + neutral). The same syllable can mean completely different things. Pinyin romanization helps you get started.',
-    cultural:['Greet with a nod or handshake — hugs are uncommon with strangers','Gift-giving is important — avoid clocks (associated with death) and green hats (infidelity)','Red is lucky — great for gifts and celebrations','Slurping noodles and soup is perfectly acceptable and shows enjoyment','Business cards are presented and received with both hands','Bargaining is expected in markets, but not in malls'],
+   tip:'Mandarin is tonal (4 tones). Pinyin romanization helps you get started.',
+    cultural: [
+      'Greet with a nod or handshake — hugs are uncommon with strangers',
+      'Avoid giving clocks as gifts (associated with death)',
+      'Red is lucky — great for gifts and celebrations',
+      'Slurping noodles and soup shows you are enjoying the meal',
+      'Business cards are presented and received with both hands',
+      'Bargaining is expected in markets, but not in malls',
+      'It is customary to politely refuse a gift before accepting',
+      'Hold your glass lower than a senior person\'s when toasting',
+      'Avoid public criticism to help others "save face"',
+      'Leaving a tiny bit of food on your plate shows the host provided plenty'
+    ],
     categories:{
       '👋 Greetings & Celebrations': {cls:'cat-greetings', words:[
         {en:'Good morning',tr:'早上好',rom:'Zǎoshang hǎo'},{en:'Good afternoon',tr:'下午好',rom:'Xiàwǔ hǎo'},
